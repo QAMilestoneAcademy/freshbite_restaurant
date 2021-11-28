@@ -1,0 +1,171 @@
+/* universal */
+
+*{
+margin:0;
+padding:10px;
+text-align: center;
+}
+
+
+ #name {
+  font-family: 'Arvo', sans-serif;
+  margin-top: 50px;
+  /* text-align:center; */
+}
+
+
+#nav-links {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center; 
+} 
+
+ #nav-links li{
+  margin: 20px 5px 0 5px;
+}
+
+#nav-links li a {
+  color: #d8192f;
+  border-radius: 4px;
+  border: 1px solid #d8192f;
+  padding: 12px 25px;
+  font-family: 'Arvo', sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+
+#nav-links a:hover {
+  color: white;
+  background: #d8192f;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .5);
+  /* text-decoration: none; */
+} 
+
+
+/* jumbotron */
+
+ .jumbotron {
+  height: 500px;
+  background: url('https://images.unsplash.com/photo-1486665384220-2f049536378a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=870&q=80') no-repeat center center;
+  background-size: cover;
+  margin: 0;
+}
+
+.list h2 {
+  color: white;
+  font-family: 'Arvo', sans-serif;
+  font-size: 60px;
+  margin-bottom: 1px;
+  display: block;
+  margin: 0;
+  font-weight: 100;
+}
+
+.list {
+  margin-top: 100px;
+  text-align: center;
+  padding-top:50px;
+}
+
+
+/* mid tier */
+
+.midTier {
+  height: 180px;
+  background-color: #36343f;
+  margin-top: 0;
+  text-align: center;
+}
+
+.midTier h3 {
+  margin: 10px;
+  color: white;
+  font-family: 'Arvo', sans-serif;
+  font-size: 28px;
+  padding-top: 50px;
+}
+
+.btn {
+  background: rgba(216, 25, 47, .5);
+  font-family: 'Arvo', sans-serif;
+  color: white;
+  text-shadow: none;
+  border: none;
+  margin-top: 50px;
+  border-radius: 6px;
+  padding: 8px 24px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #d8192f;
+  color: white;
+  text-decoration: none;
+}
+
+/* main content */
+
+#mainHeader {
+  font-family: 'Arvo', sans-serif;
+  text-align: center;
+  margin-top: 75px;
+  font-size: 28px;
+  font-weight: 100;
+}
+
+.foodGroups {
+  margin-bottom: 75px;
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+.foodHeaders {
+  color: #d8192f;
+  font-size: 21px;
+  margin-top: 40px;
+}
+
+.foods,
+.foodHeaders {
+  text-align: center;
+  font-family: 'Arvo', sans-serif;
+  /* display: inline-block; */
+}
+.foods{
+  margin:10px;
+  border:1px solid green;
+  border-radius:5px;
+  padding : 10px;
+}
+
+.foods:hover{
+   border:1px solid lightgreen;
+}
+.foods p {
+  /* margin-bottom: 5px; */
+  font-size: 14px;
+} 
+
+
+/* footer */
+
+.footer {
+  text-align: center;
+  height: 150px;
+  background: #eee;
+  font-size: 14px;
+  font-family: 'Arvo', sans-serif;
+  padding-top:10px;
+}
+
+.footer p {
+  margin-top: 30px;
+}
+
+.footerActive {
+  color: #d8192f;
+}
+
